@@ -915,8 +915,8 @@
                     <div class="interest-icon">
                         <i class="fas fa-book"></i>
                     </div>
-                    <div class="interest-name">Books</div>
-                    <div class="interest-description">Expanding knowledge through reading technical and fiction books</div>
+                    <div class="interest-name">Reading</div>
+                    <div class="interest-description">Expanding knowledge through business, technical, and entrepreneurship books</div>
                 </div>
                 
                 <div class="interest-item">
@@ -943,7 +943,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>My Projects</h2>
-                <div class="subtitle">My recent work</div>
+                <div class="subtitle">Featured Projects</div>
             </div>
             <div class="projects-grid">
                 <!-- UPDATE: Add your projects here -->
@@ -1221,6 +1221,14 @@
             // Reset form
             this.reset();
         });
+        // ✅ Scroll smoothly to top when Back to Top button is clicked
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });        
 
         // Add animation on scroll
         const observerOptions = {
@@ -1245,4 +1253,5 @@
 </body>
 
 </html>
+
 
