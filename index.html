@@ -391,6 +391,7 @@
             transition: var(--transition);
             border: 1px solid transparent;
             position: relative;
+            z-index: 1;
         }
         .project-card::before {
             content: '';
@@ -428,6 +429,8 @@
         }
         .project-content {
             padding: 25px;
+            position: relative;
+            z-index: 2;
         }
         .project-title {
             font-size: 1.5rem;
@@ -463,6 +466,8 @@
             text-decoration: none;
             font-weight: 500;
             transition: var(--transition);
+            position: relative;
+            z-index: 3;
         }
         .project-link:hover {
             color: var(--primary);
@@ -1273,6 +1278,7 @@
 </body>
 
 </html>
+
 
 
 
