@@ -310,7 +310,6 @@
         /* Interests Section */
         .interests {
             padding: 100px 0;
-            background-color: var(--darker);
         }
         .interests-container {
             display: flex;
@@ -377,6 +376,7 @@
         /* Projects Section */
         .projects {
             padding: 100px 0;
+            background-color: var(--darker);
         }
         .projects-grid {
             display: grid;
@@ -770,8 +770,8 @@
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#interests" class="nav-link">Interests</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
                     <li><a href="#cv" class="nav-link">CV</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
@@ -844,6 +844,10 @@
         <div class="skill-item"><i class="fas fa-robot"></i> Machine Learning</div>
         <div class="skill-item"><i class="fas fa-brain"></i> Deep Learning</div>
         <div class="skill-item"><i class="fas fa-comments"></i> NLP</div>
+        <!-- Add these three lines below -->
+        <div class="skill-item"><i class="fas fa-cube"></i> TensorFlow</div>
+        <div class="skill-item"><i class="fas fa-layer-group"></i> Keras</div>
+        <div class="skill-item"><i class="fas fa-fire"></i> PyTorch</div>
         </div>
 
         <div class="skills-category">
@@ -880,62 +884,6 @@
         <div class="skill-item"><i class="fas fa-code"></i> VS Code</div>
         <div class="skill-item"><i class="fas fa-gem"></i> Cursor</div>
     </div>
-    </section>
-
-
-    <!-- Interests Section -->
-    <section class="interests" id="interests">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Interests</h2>
-                <div class="subtitle">What I love doing</div>
-            </div>
-            <div class="interests-container">
-                <!-- UPDATE: Add, remove, or modify interests as needed -->
-                <!-- To add a new interest, copy the entire interest-item div and modify the icon, name, and description -->
-                <!-- For icons, visit https://fontawesome.com/icons and replace the class name -->
-                
-                <div class="interest-item">
-                    <div class="interest-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="interest-name">Coding</div>
-                    <div class="interest-description">Building innovative solutions and exploring new technologies</div>
-                </div>
-                
-                <div class="interest-item">
-                    <div class="interest-icon">
-                        <i class="fas fa-chess"></i>
-                    </div>
-                    <div class="interest-name">Chess</div>
-                    <div class="interest-description">Strategic thinking and problem-solving through the game of kings</div>
-                </div>
-                
-                <div class="interest-item">
-                    <div class="interest-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <div class="interest-name">Reading</div>
-                    <div class="interest-description">Expanding knowledge through technical and business literature</div>
-                </div>
-                
-                <div class="interest-item">
-                    <div class="interest-icon">
-                        <i class="fas fa-dumbbell"></i>
-                    </div>
-                    <div class="interest-name">Gym</div>
-                    <div class="interest-description">Maintaining physical fitness and a healthy lifestyle</div>
-                </div>
-                
-                <div class="interest-item">
-                    <div class="interest-icon">
-                        <i class="fas fa-plane"></i>
-                    </div>
-                    <div class="interest-name">Traveling</div>
-                    <div class="interest-description">Enthusiastic about discovering new cultures and broadening my horizons</div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Projects Section -->
@@ -1051,6 +999,61 @@
                 <a href="https://github.com/adeel-iqbal" target="_blank">
                     <i class="fab fa-github"></i> View More on GitHub
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="interests" id="interests">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Interests</h2>
+                <div class="subtitle">What I love doing</div>
+            </div>
+            <div class="interests-container">
+                <!-- UPDATE: Add, remove, or modify interests as needed -->
+                <!-- To add a new interest, copy the entire interest-item div and modify the icon, name, and description -->
+                <!-- For icons, visit https://fontawesome.com/icons and replace the class name -->
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="interest-name">Coding</div>
+                    <div class="interest-description">Building innovative solutions and exploring new technologies</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <div class="interest-name">Chess</div>
+                    <div class="interest-description">Strategic thinking and problem-solving through the game of kings</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="interest-name">Reading</div>
+                    <div class="interest-description">Expanding knowledge through technical and business literature</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <div class="interest-name">Gym</div>
+                    <div class="interest-description">Maintaining physical fitness and a healthy lifestyle</div>
+                </div>
+                
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="interest-name">Traveling</div>
+                    <div class="interest-description">Enthusiastic about discovering new cultures and broadening my horizons</div>
+                </div>
             </div>
         </div>
     </section>
@@ -1253,6 +1256,7 @@
 </body>
 
 </html>
+
 
 
 
